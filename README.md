@@ -1,8 +1,6 @@
 REFSHARE Core integration/staging repository
 =====================================
 
-[![Build Status](https://travis-ci.org/REFSHARE-Project/REFSHARE.svg?branch=master)](https://travis-ci.org/REFSHARE-Project/REFSHARE) [![GitHub version](https://badge.fury.io/gh/REFSHARE-Project%2FREFSHARE.svg)](https://badge.fury.io/gh/REFSHARE-Project%2FREFSHARE)
-
 REFSHARE is a cutting edge cryptocurrency, with many features not available in most other cryptocurrencies.
 - Anonymized transactions using the _Zerocoin Protocol_.
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _SwiftX_.
