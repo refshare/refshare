@@ -1,0 +1,26 @@
+# /etc/conf.d/refshared: config file for /etc/init.d/refshared
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/refshare/refshare.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/refshared"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/refshared.pid"
+
+# Where to write refshared data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/refshared"
+
+# User and group to own refshared process
+#BITCOIND_USER="refshare"
+#BITCOIND_GROUP="refshare"
+
+# Path to refshared executable
+#BITCOIND_BIN="/usr/bin/refshared"
+
+# Nice value to run refshared under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

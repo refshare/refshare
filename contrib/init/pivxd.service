@@ -1,0 +1,26 @@
+[Unit]
+Description=REFSHARE's distributed currency daemon
+After=network.target
+
+[Service]
+User=refshare
+Group=refshare
+
+Type=forking
+PIDFile=/var/lib/refshared/refshared.pid
+
+ExecStart=/usr/bin/refshared -daemon -pid=/var/lib/refshared/refshared.pid \
+          -conf=/etc/refshare/refshare.conf -datadir=/var/lib/refshared
+
+ExecStop=-/usr/bin/refshare-cli -conf=/etc/refshare/refshare.conf \
+         -datadir=/var/lib/refshared stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

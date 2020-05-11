@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/refshare_bg.qm</file>
+        <file alias="ca">locale/refshare_ca.qm</file>
+        <file alias="cs">locale/refshare_cs.qm</file>
+        <file alias="da">locale/refshare_da.qm</file>
+        <file alias="de">locale/refshare_de.qm</file>
+        <file alias="en">locale/refshare_en.qm</file>
+        <file alias="en_US">locale/refshare_en_US.qm</file>
+        <file alias="es">locale/refshare_es.qm</file>
+        <file alias="fi">locale/refshare_fi.qm</file>
+        <file alias="fr_FR">locale/refshare_fr_FR.qm</file>
+        <file alias="it">locale/refshare_it.qm</file>
+        <file alias="ja">locale/refshare_ja.qm</file>
+        <file alias="ko_KR">locale/refshare_ko_KR.qm</file>
+        <file alias="nl">locale/refshare_nl.qm</file>
+        <file alias="pl">locale/refshare_pl.qm</file>
+        <file alias="pt">locale/refshare_pt.qm</file>
+        <file alias="pt_BR">locale/refshare_pt_BR.qm</file>
+        <file alias="ro_RO">locale/refshare_ro_RO.qm</file>
+        <file alias="ru">locale/refshare_ru.qm</file>
+        <file alias="sk">locale/refshare_sk.qm</file>
+        <file alias="sv">locale/refshare_sv.qm</file>
+        <file alias="tr">locale/refshare_tr.qm</file>
+        <file alias="uk">locale/refshare_uk.qm</file>
+        <file alias="zh_CN">locale/refshare_zh_CN.qm</file>
+        <file alias="zh_TW">locale/refshare_zh_TW.qm</file>
+    </qresource>
+</RCC>
